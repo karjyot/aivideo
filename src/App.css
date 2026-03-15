@@ -1,0 +1,197 @@
+*{
+box-sizing:border-box;
+font-family:Inter, Arial;
+}
+
+body{
+margin:0;
+background:#0f172a;
+color:white;
+}
+
+/* Header */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:#020617;
+border-bottom:1px solid #1e293b;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+}
+
+.auth-buttons button{
+margin-left:10px;
+padding:8px 18px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+}
+
+.login{
+background:transparent;
+color:white;
+border:1px solid #334155;
+}
+
+.signup{
+background:#6366f1;
+color:white;
+}
+
+/* Layout */
+
+.container{
+display:flex;
+height:calc(100vh - 70px);
+}
+
+/* Sidebar */
+
+.sidebar{
+width:220px;
+background:#020617;
+padding:25px;
+border-right:1px solid #1e293b;
+}
+
+.sidebar a{
+display:block;
+padding:12px;
+color:#cbd5f5;
+text-decoration:none;
+border-radius:6px;
+margin-bottom:5px;
+}
+
+.sidebar a:hover{
+background:#1e293b;
+}
+
+/* Main */
+
+.main{
+flex:1;
+padding:40px;
+overflow:auto;
+}
+
+/* Card */
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+margin-bottom:30px;
+}
+
+/* Input */
+
+textarea{
+width:100%;
+padding:15px;
+border-radius:8px;
+border:none;
+margin-top:10px;
+background:#020617;
+color:white;
+}
+
+/* Styled Select */
+
+select{
+width:100%;
+padding:10px;
+border-radius:8px;
+background:#020617;
+color:white;
+border:1px solid #334155;
+margin-top:8px;
+}
+
+/* Style buttons */
+
+.style-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+margin-top:10px;
+}
+
+.style-btn{
+background:#020617;
+border:1px solid #334155;
+padding:12px;
+border-radius:8px;
+cursor:pointer;
+text-align:center;
+transition:0.2s;
+}
+
+.style-btn:hover{
+background:#6366f1;
+border-color:#6366f1;
+}
+
+/* Generate button */
+
+.generate-btn{
+margin-top:20px;
+width:100%;
+padding:14px;
+border:none;
+border-radius:8px;
+background:linear-gradient(90deg,#6366f1,#8b5cf6);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+/* Layout */
+
+.row{
+display:flex;
+gap:30px;
+}
+
+/* Preview */
+
+.preview{
+background:#020617;
+padding:20px;
+border-radius:10px;
+}
+
+.preview img{
+width:100%;
+border-radius:8px;
+}
+
+/* Videos */
+
+.video-grid{
+display:flex;
+gap:20px;
+}
+
+.video-card{
+background:#020617;
+padding:10px;
+border-radius:8px;
+width:200px;
+}
+
+.video-card img{
+width:100%;
+border-radius:6px;
+}
+
+.video-card p{
+font-size:14px;
+margin-top:5px;
+}
